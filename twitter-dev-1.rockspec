@@ -2,12 +2,12 @@ package = "twitter"
 version = "dev-1"
 
 source = {
-  url = "git://github.com/leafo/lua-twitter.git",
+  url = "git://github.com/dai-yamashita/lua-twitter.git",
 }
 
 description = {
   summary = "A Lua twitter library that works with OpenResty or LuaSocket",
-  homepage = "https://github.com/leafo/lua-twitter",
+  homepage = "https://github.com/dai-yamashita/lua-twitter",
   license = "MIT"
 }
 
