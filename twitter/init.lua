@@ -319,6 +319,9 @@ do
     get_user = function(self, opts)
       return self:_request("GET", "/1.1/users/show.json", opts)
     end,
+    get_home_timeline = function(self, opts)
+      return self:_request("GET", "/1.1/statuses/home_timeline.json", opts)
+    end,
     get_user_timeline = function(self, opts)
       return self:_request("GET", "/1.1/statuses/user_timeline.json", opts)
     end,
